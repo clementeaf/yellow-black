@@ -1,0 +1,245 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+root {
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Michroma', sans-serif;
+    font-family: 'Mukta Malar', sans-serif;
+    font-family: 'Bungee Inline', cursive;
+    font-family: 'Gugi', cursive;
+    font-family: 'Antonio', sans-serif;
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background:  rgba(0, 0, 8, 0.911);
+}
+
+.Caja-Principal {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-reflect: below 1px linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.24));
+}
+
+a {
+    text-decoration: none;
+}
+.box {
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.ye {
+    color: rgba(255, 255, 0, 0.712);
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Mukta Malar', sans-serif;
+    text-shadow:  0 0 10px yellow,
+                  0 0 20px yellow,
+                  0 0 40px yellow,
+                  0 0 80px yellow,
+                  0 0 120px yellow;
+                  transition: all .3s ease-in-out;    
+}
+.ye:hover {
+    color: rgb(255, 196, 0);
+    text-shadow:  0 0 10px rgb(255, 166, 0),
+                  0 0 20px rgb(255, 123, 0),
+                  0 0 40px rgb(255, 123, 0),
+                  0 0 80px rgb(255, 123, 0),
+                  0 0 120px rgb(255, 123, 0);
+                  
+    
+}
+
+.ll {
+    color: rgba(255, 255, 0, 0.712);
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Mukta Malar', sans-serif;
+    text-shadow:  0 0 10px yellow,
+                  0 0 20px yellow,
+                  0 0 40px yellow,
+                  0 0 80px yellow,
+                  0 0 120px yellow;
+                  transition: all .3s ease-in-out;
+}
+.ll:hover {
+    color: rgb(255, 196, 0);
+    text-shadow:  0 0 10px rgba(252, 178, 109, 0.801),
+                  0 0 20px rgba(255, 163, 110, 0.801),
+                  0 0 40px rgba(255, 214, 125, 0.911),
+                  0 0 80px rgba(252, 179, 85, 0.938),
+                  0 0 120px rgba(255, 161, 85, 0.911);
+    
+}
+.ow {
+    color: rgba(255, 255, 0, 0.712);
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Mukta Malar', sans-serif;
+    text-shadow:  0 0 10px yellow,
+                  0 0 20px yellow,
+                  0 0 40px yellow,
+                  0 0 80px yellow,
+                  0 0 120px yellow;
+                  transition: all .3s ease-in-out;
+}
+.ow:hover {
+    color: rgb(255, 196, 0);
+    text-shadow:  0 0 10px rgba(252, 178, 109, 0.801),
+                  0 0 20px rgba(255, 163, 110, 0.801),
+                  0 0 40px rgba(255, 214, 125, 0.911),
+                  0 0 80px rgba(252, 179, 85, 0.938),
+                  0 0 120px rgba(255, 161, 85, 0.911);
+    
+}
+.bl {
+    color: black;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Mukta Malar', sans-serif;
+    
+}
+
+.ack {
+    color: black;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Mukta Malar', sans-serif;              
+}
+
+
+/* Pagina 1 */
+
+.barra-lateral-derecha {
+    width: 100%;
+    height: 700px;
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    order: 0;
+}
+.somos {
+    display: flex;
+    writing-mode: vertical-lr;
+    font-family: 'Mukta Malar', sans-serif;
+    width: 17px;
+    height: 110px;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    transition: all .3s ease-in-out;
+}
+.somos:hover{
+    transform: scale(2.5);
+}    
+.work-space {
+    display: flex;
+    writing-mode: vertical-lr;
+    font-family: 'Mukta Malar', sans-serif;
+    width: 17px;
+    height: 140px;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    transition: all .3s ease-in-out;
+}
+.work-space:hover{
+    transform: scale(2.5);
+}    
+.contacto {
+    display: flex;
+    writing-mode: vertical-lr;
+    font-family: 'Mukta Malar', sans-serif;
+    width: 17px;
+    height: 120px;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    transition: all .3s ease-in-out;
+}
+.contacto:hover{
+    transform: scale(2.5);
+}    
+
+.identidad {
+    width: 400px;
+    height: 250px;
+    margin-left: 30px ;
+    padding: 1px;
+    text-align: center;
+    order: -1;
+    flex-grow: 3;
+    color: none;
+    -webkit-box-reflect: below 1px linear-gradient(rgba(62, 178, 255, 0), rgba(63, 144, 236, 0.24));
+
+    
+}
+h2 {
+    margin-bottom: 10px;
+    font-family: 'Lexend Mega', sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px  whitesmoke;
+    font-weight: lighter;
+    font-size: 70px;
+    letter-spacing: 30px;
+    text-align: left;
+    transition: all 1s ease-in-out;
+}
+.titulo:hover {
+    text-shadow:  0 0 10px rgba(142, 255, 249, 0.801),
+    0 0 20px rgba(142, 255, 249, 0.801),
+    0 0 40px rgba(142, 255, 249, 0.801),
+    0 0 80px rgba(142, 255, 249, 0.801),
+    0 0 120px rgba(142, 255, 249, 0.801);
+}
+p {
+    width: 800px;
+    height: 90px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: 'Lexend Mega', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    color: whitesmoke;
+    
+}
+.barra {
+    display: flex;
+    order: -2;
+    width: 2px;
+    height: 500px;
+    background: whitesmoke;
+    box-shadow: 0px 0px 5px rgba(185, 211, 210, 0.863),
+                0px 0px 15px rgba(170,212,210, 0.5),
+                0px 0px 25px rgba(170,212,210, 0.5);
+}
+.barra-neo{
+    display: flex;
+    order: -2;
+    width: 500px;
+    height: 2px;
+    background: whitesmoke;
+    box-shadow: 0px 0px 5px rgba(185, 211, 210, 0.863),
+                0px 0px 15px rgba(170,212,210, 0.5),
+                0px 0px 25px rgba(170,212,210, 0.5);
+}
+
+
+
+
+
+
+
+
